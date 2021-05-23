@@ -4,23 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to KokoaTalk</title>
+    <title>Welcome to Kokoaclone</title>
+    <link rel="stylesheet" href="css/styles.css"/>
 </head>
 <body>
     <div id="status-bar">
         <div class="status-bar__colusmn">
             <span>No Service</span>
-            <!--TO Do :Wifi Icon-->
+            <i class="fas fa-wifi fa-xs"></i>
         </div>
         <div class="status-bar__colusmn">
           <span>18:43</span>  
         </div>
         <div class="status-bar__colusmn">
             <span>110%</span>
-            <!--Battery Icon-->
-            <!--Lighting Icon-->
+            <i class="fas fa-battery-three-quarters "></i>
+            <i class="fas fa-bolt fa-xs"></i>
         </div>
     </div>
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
+        <p class="welcome-header__text">If you have a Kokoa Account, log in with your email or phone number.</p>
+    </header>
+    <form class="login-form">
+        <input type="text" placeholder="Email or phone number"/>
+        <input type="password" placeholder="Password"/>
+        <input type="submit" value="Log In"/>
+        <input type="submit" value="Sign Up"/>
+        <a href="#">Find Kakao Account or Password</a>
+    </form>
+    
     <script src="https://kit.fontawesome.com/633cc7db4d.js" crossorigin="anonymous">
     </script>
 </body>
